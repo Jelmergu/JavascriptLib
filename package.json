@@ -1,0 +1,14 @@
+{
+  "name": "Jelmergu/Jelmergu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Javascript/Jelmergu.js",
+  "dependencies": {
+    "typescript": "^2.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
