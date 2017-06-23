@@ -4,9 +4,6 @@
 class PHP {
     static max_random: number = 32767;
 
-    /**
-     *
-     */
     static empty(value): boolean {
         let type:string = typeof value;
         if (type == "string") {
