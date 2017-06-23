@@ -2,17 +2,17 @@
   "name": "Jelmergu",
   "version": "1.0.0",
   "description": "",
-  "main": "Javascript/Jelmergu.js",
+  "main": "build/es5.js",
   "dependencies": {
     "npm-run-all": "^4.0.2",
     "typescript": "^2.3.4"
   },
   "scripts": {
     "build": "npm-run-all --parallel build:*",
-    "build:es5": "tsc --lib es5 --outFile Javascript/es5.js -t es5",
-    "build:es6": "tsc --lib es2015 --outFile Javascript/es2015.js -t es2015",
-    "build:es2017": "tsc --lib es2016 --outFile Javascript/es2016.js -t es2016",
-    "watch": "tsc --lib es2016 --outFile Javascript/es2016.js -w -t es2016"
+    "build:es5": "tsc --lib es5 --outFile build/es5.js -t es5",
+    "build:es6": "tsc --lib es2015 --outFile build/es2015.js -t es2015",
+    "build:es2017": "tsc --lib es2016 --outFile build/es2016.js -t es2016",
+    "watch": "tsc --lib es2016 --outFile build/es2016.js -w -t es2016"
   },
   "author": "",
   "license": "ISC"
