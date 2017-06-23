@@ -1,19 +1,13 @@
 {
     "compilerOptions" : {
         "module" :    "system",
-        "target" :    "es2017",
         "sourceMap" : false,
         "typeRoots" : [
             "node_modules/@types"
-        ],
-        "watch" :     true,
-        "outFile" :   "JavaScript/Jelmergu.js",
-        "rootDir" :   ".",
-        "outDir" :    "Typescript"
+        ]
     },
     "compileOnSave" : true,
-
-    "exclude" :         [
-        "node_modules"
+    "include" : [
+        "Typescript/*"
     ]
 }
